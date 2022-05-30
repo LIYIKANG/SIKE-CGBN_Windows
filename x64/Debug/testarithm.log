@@ -1,0 +1,358 @@
+﻿  Compiling CUDA source file test.cu...
+  Compiling CUDA source file test_arith.cu...
+  
+  C:\Users\81906\Desktop\大学院M１\修士指導\sike2cgbn 2>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -gencode=arch=compute_61,code=\"sm_61,compute_61\" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2/include" -I./cgbn/include -I./gmp/include -I./include -I./symmetric -I./symmetric -I./include -I./gmp/include -I./cgbn/include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\test.cu.obj "C:\Users\81906\Desktop\大学院M１\修士指導\sike2cgbn 2\test.cu" 
+  
+  C:\Users\81906\Desktop\大学院M１\修士指導\sike2cgbn 2>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -gencode=arch=compute_61,code=\"sm_61,compute_61\" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2/include" -I./cgbn/include -I./gmp/include -I./include -I./symmetric -I./symmetric -I./include -I./gmp/include -I./cgbn/include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\test_arith.cu.obj "C:\Users\81906\Desktop\大学院M１\修士指導\sike2cgbn 2\test_arith.cu" 
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime.h : warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\sm_20_intrinsics.h : warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\sm_20_intrinsics.h(926): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda.h(13166): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\users\81906\desktop\大学院m１\修士指導\sike2cgbn 2\include\fp.cuh : warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\users\81906\desktop\大学院m１\修士指導\sike2cgbn 2\include\fp.cuh : warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime.h : warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\sm_20_intrinsics.h : warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\sm_20_intrinsics.h(926): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda.h(13166): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\users\81906\desktop\大学院m１\修士指導\sike2cgbn 2\include\fp.cuh : warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\users\81906\desktop\大学院m１\修士指導\sike2cgbn 2\include\fp.cuh : warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+C:/Users/81906/Desktop/大学院M１/修士指導/sike2cgbn 2/test_arith.cu(132): warning : variable "report" was declared but never referenced
+  
+C:/Users/81906/Desktop/大学院M１/修士指導/sike2cgbn 2/test.cu(25): warning : function "help" was declared but never referenced
+  
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime.h : warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\sm_20_intrinsics.h : warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\sm_20_intrinsics.h(926): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda.h(13166): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\users\81906\desktop\大学院m１\修士指導\sike2cgbn 2\include\fp.cuh : warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\users\81906\desktop\大学院m１\修士指導\sike2cgbn 2\include\fp.cuh : warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+C:/Users/81906/Desktop/大学院M１/修士指導/sike2cgbn 2/test.cu(25): warning : function "help" was declared but never referenced
+  
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime.h : warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\sm_20_intrinsics.h : warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\sm_20_intrinsics.h(926): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda.h(13166): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\users\81906\desktop\大学院m１\修士指導\sike2cgbn 2\include\fp.cuh : warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\users\81906\desktop\大学院m１\修士指導\sike2cgbn 2\include\fp.cuh : warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+  test.cu
+c:\users\81906\desktop\大学院m１\C士指導\sike2cgbn 2\cgbn\include\cgbn\core\padded_resolver.cu(70): warning C4068: 未知的?注
+c:\users\81906\desktop\大学院m１\C士指導\sike2cgbn 2\cgbn\include\cgbn\core\padded_resolver.cu(76): warning C4068: 未知的?注
+c:\users\81906\desktop\大学院m１\C士指導\sike2cgbn 2\cgbn\include\cgbn\core\padded_resolver.cu(115): warning C4068: 未知的?注
+c:\users\81906\desktop\大学院m１\C士指導\sike2cgbn 2\cgbn\include\cgbn\core\padded_resolver.cu(158): warning C4068: 未知的?注
+c:\users\81906\desktop\大学院m１\C士指導\sike2cgbn 2\cgbn\include\cgbn\core\padded_resolver.cu(163): warning C4068: 未知的?注
+c:\users\81906\desktop\大学院m１\C士指導\sike2cgbn 2\cgbn\include\cgbn\core\padded_resolver.cu(201): warning C4068: 未知的?注
+c:\users\81906\desktop\大学院m１\C士指導\sike2cgbn 2\cgbn\include\cgbn\core\padded_resolver.cu(213): warning C4068: 未知的?注
+c:\users\81906\desktop\大学院m１\C士指導\sike2cgbn 2\cgbn\include\cgbn\core\padded_resolver.cu(261): warning C4068: 未知的?注
+c:\users\81906\desktop\大学院m１\C士指導\sike2cgbn 2\cgbn\include\cgbn\core\padded_resolver.cu(274): warning C4068: 未知的?注
+c:\users\81906\desktop\大学院m１\C士指導\sike2cgbn 2\cgbn\include\cgbn\core\padded_resolver.cu(279): warning C4068: 未知的?注
+C:\Users\81906\Desktop\大学院M１\C士指導\sike2cgbn 2\gmp\include\gmp.h(1778): warning C4244: “return”: 从“mp_limb_t”??到“unsigned long”，可能?失数据
+C:\Users\81906\Desktop\大学院M１\C士指導\sike2cgbn 2\gmp\include\gmp.h(2223): warning C4146: 一元??算符?用于无符号?型，?果仍?无符号?型
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime.h : warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\sm_20_intrinsics.h : warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\sm_20_intrinsics.h(926): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda.h(13166): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\users\81906\desktop\大学院m１\修士指導\sike2cgbn 2\include\fp.cuh : warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\users\81906\desktop\大学院m１\修士指導\sike2cgbn 2\include\fp.cuh : warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+C:/Users/81906/Desktop/大学院M１/修士指導/sike2cgbn 2/test_arith.cu(132): warning : variable "report" was declared but never referenced
+  
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda_runtime.h : warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\sm_20_intrinsics.h : warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\sm_20_intrinsics.h(926): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(3324): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\program files\nvidia gpu computing toolkit\cuda\v10.2\include\cuda_runtime_api.h(9349): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include\cuda.h(13166): warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\users\81906\desktop\大学院m１\修士指導\sike2cgbn 2\include\fp.cuh : warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+c:\users\81906\desktop\大学院m１\修士指導\sike2cgbn 2\include\fp.cuh : warning C4819: ?文件包含不能在当前代??(932)中表示的字符。?将?文件保存? Unicode 格式以防止数据?失
+  test_arith.cu
+C:\Users\81906\Desktop\大学院M１\C士指導\sike2cgbn 2\gmp\include\gmp.h(1778): warning C4244: “return”: 从“mp_limb_t”??到“unsigned long”，可能?失数据
+C:\Users\81906\Desktop\大学院M１\C士指導\sike2cgbn 2\gmp\include\gmp.h(2223): warning C4146: 一元??算符?用于无符号?型，?果仍?无符号?型
+c:\users\81906\desktop\大学院m１\C士指導\sike2cgbn 2\cgbn\include\cgbn\core\padded_resolver.cu(70): warning C4068: 未知的?注
+c:\users\81906\desktop\大学院m１\C士指導\sike2cgbn 2\cgbn\include\cgbn\core\padded_resolver.cu(76): warning C4068: 未知的?注
+c:\users\81906\desktop\大学院m１\C士指導\sike2cgbn 2\cgbn\include\cgbn\core\padded_resolver.cu(115): warning C4068: 未知的?注
+c:\users\81906\desktop\大学院m１\C士指導\sike2cgbn 2\cgbn\include\cgbn\core\padded_resolver.cu(158): warning C4068: 未知的?注
+c:\users\81906\desktop\大学院m１\C士指導\sike2cgbn 2\cgbn\include\cgbn\core\padded_resolver.cu(163): warning C4068: 未知的?注
+c:\users\81906\desktop\大学院m１\C士指導\sike2cgbn 2\cgbn\include\cgbn\core\padded_resolver.cu(201): warning C4068: 未知的?注
+c:\users\81906\desktop\大学院m１\C士指導\sike2cgbn 2\cgbn\include\cgbn\core\padded_resolver.cu(213): warning C4068: 未知的?注
+c:\users\81906\desktop\大学院m１\C士指導\sike2cgbn 2\cgbn\include\cgbn\core\padded_resolver.cu(261): warning C4068: 未知的?注
+c:\users\81906\desktop\大学院m１\C士指導\sike2cgbn 2\cgbn\include\cgbn\core\padded_resolver.cu(274): warning C4068: 未知的?注
+c:\users\81906\desktop\大学院m１\C士指導\sike2cgbn 2\cgbn\include\cgbn\core\padded_resolver.cu(279): warning C4068: 未知的?注
+  rng.cpp
+  random.cpp
+c:\users\81906\desktop\大学院m１\修士指導\sike2cgbn 2\symmetric\random.cpp : warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  fips202.cpp
+c:\users\81906\desktop\大学院m１\修士指導\sike2cgbn 2\symmetric\fips202.cpp(38): warning C4244: “=”: 从“uint64_t”转换到“uint8_t”，可能丢失数据
+  aes_c.cpp
+  convert.cpp
+c:\users\81906\desktop\大学院m１\修士指導\sike2cgbn 2\convert.cpp : warning C4819: 该文件包含不能在当前代码页(932)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\81906\desktop\大学院m１\修士指導\sike2cgbn 2\gmp\include\gmp.h(1778): warning C4244: “return”: 从“mp_limb_t”转换到“unsigned long”，可能丢失数据
+c:\users\81906\desktop\大学院m１\修士指導\sike2cgbn 2\gmp\include\gmp.h(2223): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+  正在生成代码...
+    正在创建库 C:\Users\81906\Desktop\大学院M１\修士指導\sike2cgbn 2\x64\Debug\testarithm.lib 和对象 C:\Users\81906\Desktop\大学院M１\修士指導\sike2cgbn 2\x64\Debug\testarithm.exp
+  testarithm.vcxproj -> C:\Users\81906\Desktop\大学院M１\修士指導\sike2cgbn 2\x64\Debug\testarithm.exe
+  testarithm.vcxproj -> C:\Users\81906\Desktop\大学院M１\修士指導\sike2cgbn 2\x64\Debug\testarithm.pdb (Full PDB)
